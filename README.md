@@ -2,7 +2,6 @@
 
 Note that you can directly use make all to compile all the files. However, if you would like to compile each file individually, you will need to add -pthread when compiling the serverM.cpp file $g++ -o serverM serverM.cpp -pthread, as I used pthread to create multiple threads cocurrently. You can just run the code by ./fileoutput after make all.
 
-I did complete Phase 4 for extra credit.
 
 Port# serverA: 21256, serverB: 22256, serverC: 23256, serverM: 24256, clientA: 25256, clientB: 26256.
 

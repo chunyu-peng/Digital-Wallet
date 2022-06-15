@@ -1,6 +1,6 @@
 # UNIX-Socket-programming
 
-Note that you can directly use \$make all to compile all the files. However, if you would like to compile each file individually, you will need to add -pthread when compiling the serverM.cpp file $g++ -o serverM serverM.cpp -pthread, as I used pthread to create multiple threads cocurrently. You can just run the code by $./fileoutput after $make all.
+Note that you can directly use make all to compile all the files. However, if you would like to compile each file individually, you will need to add -pthread when compiling the serverM.cpp file $g++ -o serverM serverM.cpp -pthread, as I used pthread to create multiple threads cocurrently. You can just run the code by ./fileoutput after make all.
 
 I did complete Phase 4 for extra credit.
 
